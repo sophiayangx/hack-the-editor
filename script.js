@@ -1,8 +1,8 @@
 var editor = $(parent.document.body)
-editor.find("div").css({background:"black"})
+editor.find("div").css({border:"1px solid yellow"})
 
 var topbar = $(parent.parent.document.body).find("#topbar")
-topbar.find("div").css("<button>"</>);
+topbar.find("div").css("<button>" + "hi" + "</button>");
 //topbar.find("div").append("hellow")
 
 var allDivsInTheEditor = editor.find("div")
