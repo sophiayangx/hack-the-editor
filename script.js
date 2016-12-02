@@ -6,7 +6,8 @@ topbar.find("div").css({border: "2px solid yellow"})
 
 var allDivsInTheEditor = editor.find("div")
 
-var projectheader = 
+var projectheader = $(parent.document.body).find("#project-files-header")
+projectheader.find("div").css({border: "backgroun"})
 
 // Now try to
 // 1. add a button to the topbar
