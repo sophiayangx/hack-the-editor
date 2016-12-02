@@ -1,5 +1,5 @@
 var editor = $(parent.document.body)
-editor.find("div").css({background:"yellow"})
+editor.find("div").css({background:"white"})
 
 var topbar = $(parent.parent.document.body).find("#topbar")
 
