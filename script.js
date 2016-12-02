@@ -3,6 +3,7 @@ editor.find("div").css({background:"yellow"})
 
 var topbar = $(parent.parent.document.body).find("#topbar")
 
+
 var allDivsInTheEditor = editor.find("div")
 
 
