@@ -1,8 +1,8 @@
 var editor = $(parent.document.body)
-editor.find("div").css({background:"white"})
+editor.find("div").css({background:"black"})
 
 var topbar = $(parent.parent.document.body).find("#topbar")
-
+topbar.find("div").css({back})
 
 var allDivsInTheEditor = editor.find("div")
 
